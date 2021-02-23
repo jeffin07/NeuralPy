@@ -11,7 +11,7 @@ class Softmax(CustomLayer):
 
       Supported Arguments
         dim=None: (Interger) A dimension along which Softmax will be
-            computed (so every slice along dim will sum to 1).
+            computed (so every slice along dim will sum to 1).Optional
         name=None: (String) Name of the activation function layer,
             if not provided then automatically calculates a unique name for the layer.
     """
@@ -29,7 +29,7 @@ class Softmax(CustomLayer):
         """
         super().__init__(_Softmax, "Softmax", layer_name=name)
 
-        if not isinstance(dim, int):
+        if dim is not None and not isinstance(dim, int):
             raise ValueError("Please provide a valid dim")
 
         self.__dim = dim
