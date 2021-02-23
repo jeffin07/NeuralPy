@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">20%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>1829</td>
+                <td>1462</td>
+                <td>0</td>
+                <td class="right" data-ratio="367 1829">20%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="__init___py.html">__init__.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="callbacks___init___py.html">callbacks/__init__.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="callbacks_train_logger_py.html">callbacks/train_logger.py</a></td>
+                <td>36</td>
+                <td>36</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 36">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers___init___py.html">layers/__init__.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions___init___py.html">layers/activation_functions/__init__.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_gelu_py.html">layers/activation_functions/gelu.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_leaky_relu_py.html">layers/activation_functions/leaky_relu.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_relu_py.html">layers/activation_functions/relu.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_selu_py.html">layers/activation_functions/selu.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_sigmoid_py.html">layers/activation_functions/sigmoid.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_softmax_py.html">layers/activation_functions/softmax.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_activation_functions_tanh_py.html">layers/activation_functions/tanh.py</a></td>
+                <td>9</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 9">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_convolutional___init___py.html">layers/convolutional/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_convolutional_conv1d_py.html">layers/convolutional/conv1d.py</a></td>
+                <td>72</td>
+                <td>65</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 72">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_convolutional_conv2d_py.html">layers/convolutional/conv2d.py</a></td>
+                <td>83</td>
+                <td>76</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 83">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_convolutional_conv3d_py.html">layers/convolutional/conv3d.py</a></td>
+                <td>94</td>
+                <td>87</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 94">7%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_convolutional_convtranspose1d_py.html">layers/convolutional/convtranspose1d.py</a></td>
+                <td>74</td>
+                <td>55</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 74">26%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_linear___init___py.html">layers/linear/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_linear_bilinear_py.html">layers/linear/bilinear.py</a></td>
+                <td>27</td>
+                <td>21</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 27">22%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_linear_dense_py.html">layers/linear/dense.py</a></td>
+                <td>26</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 26">23%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_normalization___init___py.html">layers/normalization/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_normalization_batchnorm1d_py.html">layers/normalization/batchnorm1d.py</a></td>
+                <td>31</td>
+                <td>25</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 31">19%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_normalization_batchnorm2d_py.html">layers/normalization/batchnorm2d.py</a></td>
+                <td>29</td>
+                <td>23</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 29">21%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_normalization_batchnorm3d_py.html">layers/normalization/batchnorm3d.py</a></td>
+                <td>29</td>
+                <td>23</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 29">21%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_other___init___py.html">layers/other/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_other_flatten_py.html">layers/other/flatten.py</a></td>
+                <td>15</td>
+                <td>9</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 15">40%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling___init___py.html">layers/pooling/__init__.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling_avg_pool1d_py.html">layers/pooling/avg_pool1d.py</a></td>
+                <td>54</td>
+                <td>47</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 54">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling_avg_pool2d_py.html">layers/pooling/avg_pool2d.py</a></td>
+                <td>64</td>
+                <td>57</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 64">11%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling_avg_pool3d_py.html">layers/pooling/avg_pool3d.py</a></td>
+                <td>71</td>
+                <td>64</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 71">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling_maxpool1d_py.html">layers/pooling/maxpool1d.py</a></td>
+                <td>60</td>
+                <td>53</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 60">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling_maxpool2d_py.html">layers/pooling/maxpool2d.py</a></td>
+                <td>69</td>
+                <td>62</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 69">10%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_pooling_maxpool3d_py.html">layers/pooling/maxpool3d.py</a></td>
+                <td>78</td>
+                <td>71</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 78">9%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent___init___py.html">layers/recurrent/__init__.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent_gru_py.html">layers/recurrent/gru.py</a></td>
+                <td>34</td>
+                <td>28</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 34">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent_gru_cell_py.html">layers/recurrent/gru_cell.py</a></td>
+                <td>22</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 22">27%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent_lstm_py.html">layers/recurrent/lstm.py</a></td>
+                <td>34</td>
+                <td>28</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 34">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent_lstm_cell_py.html">layers/recurrent/lstm_cell.py</a></td>
+                <td>22</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 22">27%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent_rnn_py.html">layers/recurrent/rnn.py</a></td>
+                <td>37</td>
+                <td>31</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 37">16%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_recurrent_rnn_cell_py.html">layers/recurrent/rnn_cell.py</a></td>
+                <td>25</td>
+                <td>19</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 25">24%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_regularizers___init___py.html">layers/regularizers/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_regularizers_alpha_dropout_py.html">layers/regularizers/alpha_dropout.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_regularizers_dropout_py.html">layers/regularizers/dropout.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_regularizers_dropout2d_py.html">layers/regularizers/dropout2d.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_regularizers_dropout3d_py.html">layers/regularizers/dropout3d.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_sparse___init___py.html">layers/sparse/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="layers_sparse_embedding_py.html">layers/sparse/embedding.py</a></td>
+                <td>30</td>
+                <td>24</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 30">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="loss_functions___init___py.html">loss_functions/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="loss_functions_bce_loss_py.html">loss_functions/bce_loss.py</a></td>
+                <td>22</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 22">27%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="loss_functions_cross_entropy_py.html">loss_functions/cross_entropy.py</a></td>
+                <td>19</td>
+                <td>13</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 19">32%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="loss_functions_mse_py.html">loss_functions/mse.py</a></td>
+                <td>8</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 8">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="models___init___py.html">models/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="models_model_py.html">models/model.py</a></td>
+                <td>270</td>
+                <td>248</td>
+                <td>0</td>
+                <td class="right" data-ratio="22 270">8%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="models_model_helper_py.html">models/model_helper.py</a></td>
+                <td>68</td>
+                <td>60</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 68">12%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="models_sequential_py.html">models/sequential.py</a></td>
+                <td>18</td>
+                <td>10</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 18">44%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="optimizer___init___py.html">optimizer/__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="optimizer_adagrad_py.html">optimizer/adagrad.py</a></td>
+                <td>17</td>
+                <td>13</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 17">24%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="optimizer_adam_py.html">optimizer/adam.py</a></td>
+                <td>24</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 24">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="optimizer_rmsprop_py.html">optimizer/rmsprop.py</a></td>
+                <td>23</td>
+                <td>19</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 23">17%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="optimizer_rprop_py.html">optimizer/rprop.py</a></td>
+                <td>22</td>
+                <td>18</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 22">18%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="optimizer_sgd_py.html">optimizer/sgd.py</a></td>
+                <td>20</td>
+                <td>16</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 20">20%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="utils___init___py.html">utils/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="utils_custom_layer_py.html">utils/custom_layer.py</a></td>
+                <td>24</td>
+                <td>17</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 24">29%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.2</a>,
+            created at 2020-12-22 23:15
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+epochs,epoch,reduction,lr,betas,eps,weight_decay,amsgrad,training_loss,validation_loss
+1,0,mean,0.001,(0.9, 0.999),1e-08,0.0,False,23.039112091064453,2.158570557832718
+1,0,mean,0.001,(0.9, 0.999),1e-08,0.0,False,15.959115791320801,174.81058210134506
